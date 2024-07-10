@@ -63,6 +63,7 @@ def run_experiments(
                     break
         finally:
             save_data(data, tool_dir / TSV_FILENAME)
+    print("Done! Remember to extract the plans from all the stdout.txt!")
 
 
 @click.command()
